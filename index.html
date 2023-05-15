@@ -10,7 +10,7 @@
 		<section class="category">
 				<h3>
 					<!-- <a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a> -->
-					<a href="{{ site.baseurl }}{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
+					<a href="{{ site.baseurl }}/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
 				</h3>
 
 			<ul>
@@ -20,7 +20,7 @@
 				{% endfor %}
 				{% if size > 4 %}
 					<!-- <li><a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ size | minus: 4 }} more...</a></li> -->
-					<li><a href="{{ site.baseurl }}{{ name | slugify }}/">{{ size | minus: 4 }} more...</a></li>
+					<li><a href="{{ site.baseurl }}/{{ name | slugify }}/">{{ size | minus: 4 }} more...</a></li>
 				{% endif %}
 			</ul>
 		</section>
