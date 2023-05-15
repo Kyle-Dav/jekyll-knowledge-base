@@ -1,6 +1,16 @@
 ---
 ---
+{% assign videos = site.posts | where: "category", "cyber-security" | sort: "title" %}
+
+<h2>Cyber Security <span class="count">({{ cyber-security | size }})</span></h2>
+
+{% include listings.html listings=videos %}
+
+<!--
+---
+---
 
 {% for post in site.categories.Cyber-Security %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+{% endfor %} 
+-->
