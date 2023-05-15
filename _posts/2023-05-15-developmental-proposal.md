@@ -6,7 +6,6 @@ categories:
 description: Research and proposals that need further development and/or implimentation.
 type: Document
 ---
-
 This is everything right here.
 
 ## Titlewise
