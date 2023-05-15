@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Developmental Proposal
-categories: Cyber-Security
+categories: cyber-security
 ---
 
 # Development 1
