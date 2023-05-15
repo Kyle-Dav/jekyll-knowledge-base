@@ -1,0 +1,7 @@
+---
+---
+{% assign getting-started = site.posts | where: "categories", "getting-started" | sort: "title" %}
+
+<h2>Getting Started <span class="count">({{ getting-started | size }})</span></h2>
+
+{% include listings.html listings=getting-started %}
