@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
+title: Thoth Knowledge Base
+url: "https://kyle-dav.io/jekyll-knowledge-base/"
 baseurl:
 google_analytics_key:
 disqus_shortname:
