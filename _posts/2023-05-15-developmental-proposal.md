@@ -1,11 +1,14 @@
 ---
-layout: post
+date: 2023-05-15
 title: Developmental Proposal
+categories:
+  - cyber-security
 description: Research and proposals that need further development and/or implimentation.
-categories: cyber-security
-type: document
+type: Document
 ---
 
-# Development 1
-
 This is everything right here.
+
+## Titlewise
+
+Really, it's everything all together now.
