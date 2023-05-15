@@ -2,10 +2,10 @@
 ---
 {% assign cyber-security = site.posts | where: "category", "cyber-security" | sort: "title" %}
 
-<h2>Cyber Security <span class="count">({{ cyber-security | size }})</span></h2>
+<h2>Cyber Security</h2>
 
 {% for post in site.categories.cyber-security %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li>&nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %} 
 
 <div class="post-categories">
