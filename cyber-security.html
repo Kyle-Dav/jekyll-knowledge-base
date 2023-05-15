@@ -1,9 +1,12 @@
 ---
 ---
-{% assign cyber-security = site.posts | where: "category", "cyber-security" | sort: "title" %}
+{% assign cyber-security = site.posts | where: "categories", "cyber-security" | sort: "title" %}
 
-<h2>Cyber Security</h2>
+<h2>Cyber Security <span class="count">({{ cyber-security | size }})</span></h2>
 
+{% include listings.html listings=cyber-security %}
+
+<!--
 {% for post in site.categories.cyber-security %}
  <li>&nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %} 
@@ -19,13 +22,4 @@
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-
-{% include listings.html listings=cyber-security %}
-
-<!--
-{% assign videos = site.posts | where: "type", "Video" | sort: "title" %}
-
-<h2>Videos <span class="count">({{ videos | size }})</span></h2>
-
-{% include listings.html listings=videos %}
 -->
