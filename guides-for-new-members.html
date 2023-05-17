@@ -1,0 +1,7 @@
+---
+---
+{% assign guides-for-new-members = site.posts | where: "categories", "guides-for-new-members" | sort: "title" %}
+
+<h2>Guides for New Members <span class="count">({{ guides-for-new-members | size }})</span></h2>
+
+{% include listings.html listings=guides-for-new-members %}
