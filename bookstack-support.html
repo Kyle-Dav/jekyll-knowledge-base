@@ -1,0 +1,7 @@
+---
+---
+{% assign bookstack-support = site.posts | where: "categories", "bookstack-support" | sort: "title" %}
+
+<h2>BookStack Support <span class="count">({{ bookstack-support | size }})</span></h2>
+
+{% include listings.html listings=bookstack-support %}
