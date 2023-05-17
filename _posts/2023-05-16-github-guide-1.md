@@ -5,7 +5,7 @@ categories:
   - getting-started
 description: Part 1 of the GitHub tutorial that covers basic Git functions.
 type: Document
-set: github-tutorial
+set: github-guide
 order_number: 1
 ---
 
