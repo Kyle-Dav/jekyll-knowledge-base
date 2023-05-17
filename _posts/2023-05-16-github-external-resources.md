@@ -1,9 +1,9 @@
 ---
 date: 2023-05-16
-title: GitHub Tutorial Part 2
+title: GitHub External Resources
 categories:
-  - getting-started
-description: Part 2 of the GitHub tutorial that covers interactions with GitHub.
+  - guides-for-new-members
+description: Links and directions to useful resources for getting started with GitHub.
 type: Document
 is_series: true
 set: github-guide
