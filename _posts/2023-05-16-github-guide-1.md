@@ -5,9 +5,6 @@ categories:
   - getting-started
 description: Part 1 of the GitHub tutorial that covers basic Git functions.
 type: Document
-is_series: true
-series_title: github-guide
-order_number: 1
 ---
 Here's the beginning of the GitHub guides!
 
