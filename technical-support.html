@@ -1,0 +1,7 @@
+---
+---
+{% assign technical-support = site.posts | where: "categories", "technical-support" | sort: "title" %}
+
+<h2>Technical Support <span class="count">({{ technical-support | size }})</span></h2>
+
+{% include listings.html listings=technical-support %}
