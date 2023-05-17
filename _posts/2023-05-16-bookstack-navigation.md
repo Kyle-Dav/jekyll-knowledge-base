@@ -5,7 +5,7 @@ categories:
   - bookstack-support
 description:BookStack guide for navigating the knowledge base.
 type: Document
-set: bookstack-guide
+set: bookstack-guides
 order_number: 1
 ---
 This is a filler document to occupy space that a real document will soon fill. These contents are not relevant to the document itself, but the title and description represent what is supposed to be in the document.
