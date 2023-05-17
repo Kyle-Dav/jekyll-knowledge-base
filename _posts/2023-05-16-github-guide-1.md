@@ -6,6 +6,7 @@ categories:
 description: Part 1 of the GitHub tutorial that covers basic Git functions.
 type: Document
 ---
+
 Here's the beginning of the GitHub guides!
 
 ## Starting Out
