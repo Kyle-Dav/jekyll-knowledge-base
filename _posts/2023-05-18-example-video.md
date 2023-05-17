@@ -12,6 +12,7 @@ resources:
     link: https://zombo.com/
 type: Video
 ---
+
 This is an example video that shows off how videos can be displayed and utilized in this knowledge base.
 
 ## Justification
