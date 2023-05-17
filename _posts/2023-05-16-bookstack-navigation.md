@@ -3,7 +3,7 @@ date: 2023-05-16
 title: BookStack Navigation
 categories:
   - bookstack-support
-description:BookStack guide for navigating the knowledge base.
+description: BookStack guide for navigating the knowledge base.
 type: Document
 set: bookstack-guides
 order_number: 1
