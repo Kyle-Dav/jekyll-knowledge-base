@@ -49,3 +49,8 @@ layout: post
 title: Blogging Like a Hacker
 ---
 ~~~
+
+A list:
+
+* First item.
+* Second item.
