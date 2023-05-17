@@ -1,10 +1,10 @@
 ---
-date: 2023-05-18
+date: 2023-05-18-example-video
 title: Example Video
 video_id: NWeJ3iISUus
-description: An example video to demonstrate how videos can work on Jekyll.
+description:  An example video to demonstrate how videos can work on Jekyll.
 categories:
-  - documentatiom
+  - documentation
 resources:
   - name: Solid (Wikipedia)
     link: https://en.wikipedia.org/wiki/Solid
