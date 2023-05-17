@@ -19,8 +19,33 @@ Orci ac auctor augue mauris. Nunc aliquet bibendum enim facilisis gravida neque 
 
 Volutpat odio facilisis mauris sit amet massa vitae tortor. Vitae congue eu consequat ac felis. Vitae turpis massa sed elementum tempus egestas sed sed. Tempor orci eu lobortis elementum nibh tellus molestie. Curabitur vitae nunc sed velit dignissim sodales. Lacinia at quis risus sed. Felis eget velit aliquet sagittis id. Ac turpis egestas sed tempus urna et. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Vivamus at augue eget arcu dictum varius duis. Habitant morbi tristique senectus et netus. Mi quis hendrerit dolor magna eget. Aliquet sagittis id consectetur purus ut faucibus pulvinar. Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Nullam ac tortor vitae purus faucibus. Vulputate mi sit amet mauris commodo quis imperdiet massa. Lectus quam id leo in.
 
-## And Forward
+## Code
 
-Vel orci porta non pulvinar. Non consectetur a erat nam at. Sit amet purus gravida quis blandit turpis cursus. Netus et malesuada fames ac. In nisl nisi scelerisque eu ultrices. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Aliquet lectus proin nibh nisl condimentum id venenatis. Lectus sit amet est placerat in egestas erat. Pharetra pharetra massa massa ultricies mi quis hendrerit. Eget nullam non nisi est sit amet. Augue neque gravida in fermentum. Commodo sed egestas egestas fringilla phasellus faucibus.
+Some bash:
 
-Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Diam vulputate ut pharetra sit amet aliquam. Quis auctor elit sed vulputate mi. Diam phasellus vestibulum lorem sed. Non diam phasellus vestibulum lorem sed risus ultricies. Eu augue ut lectus arcu bibendum at varius vel pharetra. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Ac feugiat sed lectus vestibulum mattis. Nulla facilisi morbi tempus iaculis urna id. Dignissim enim sit amet venenatis urna cursus eget nunc scelerisque. Sit amet massa vitae tortor. Pharetra sit amet aliquam id diam maecenas ultricies mi eget.
+~~~ bash
+# Install Jekyll and Bundler gems through RubyGems
+~ $ gem install jekyll bundler
+
+# Create a new Jekyll site at ./myblog
+~ $ jekyll new myblog
+
+# Change into your new directory
+~ $ cd myblog
+
+# Build the site on the preview server
+~/myblog $ bundle exec jekyll serve
+
+# Now browse to http://localhost:4000
+~~~
+
+This sentence includes `inline` code.
+
+Some html:
+
+~~~ html
+---
+layout: post
+title: Blogging Like a Hacker
+---
+~~~
