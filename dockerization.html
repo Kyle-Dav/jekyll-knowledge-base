@@ -1,0 +1,7 @@
+---
+---
+{% assign dockerization = site.posts | where: "categories", "dockerization" | sort: "title" %}
+
+<h2>Dockerization <span class="count">({{ dockerization | size }})</span></h2>
+
+{% include listings.html listings=dockerization %}
