@@ -2,7 +2,7 @@
 date: 2023-05-18
 title: Example Video
 video_id: NWeJ3iISUus
-description: An example video to demonstrate how videos can work on Jekyll
+description: An example video to demonstrate how videos can work on Jekyll.
 categories:
   - documentatiom
 resources:
@@ -12,7 +12,6 @@ resources:
     link: https://zombo.com/
 type: Video
 ---
-
 This is an example video that shows off how videos can be displayed and utilized in this knowledge base.
 
 ## Justification
