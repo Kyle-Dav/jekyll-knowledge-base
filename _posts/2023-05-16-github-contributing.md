@@ -4,6 +4,7 @@ title: GitHub Contributing
 categories:
   - guides-for-new-members
 description: Style and process guide for contributing to the project repository.
+type: Document
 ---
 This is a filler document to occupy space that a real document will soon fill. These contents are not relevant to the document itself, but the title and description represent what is supposed to be in the document.
 
