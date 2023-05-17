@@ -1,0 +1,7 @@
+---
+---
+{% assign lighthouse = site.posts | where: "categories", "lighthouse" | sort: "title" %}
+
+<h2>Lighthouse <span class="count">({{ lighthouse | size }})</span></h2>
+
+{% include listings.html listings=lighthouse %}
