@@ -6,7 +6,7 @@ categories:
 description: Part 2 of the GitHub tutorial that covers interactions with GitHub.
 type: Document
 is_series: true
-series_title: github-guide
+set: github-guide
 order_number: 2
 ---
 Here's the next steps in the GitHub guide!
